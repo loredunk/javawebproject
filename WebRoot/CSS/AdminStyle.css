@@ -1,0 +1,78 @@
+#from {
+	background-color: #bacac6;
+}
+#table_wrap > table {
+            font-size: 16px;
+            text-align:left;
+            margin: 0 auto;
+            border-collapse: separate;
+            border-spacing: 0;
+            border: 2px #549688;
+        }
+
+        table thead tr,table tbody tr {
+            height: 50px;
+            line-height: 50px;
+          
+        }
+        table tr th:first-child,table tr td:first-child {/*…Ë÷√table◊Û±ﬂ±ﬂøÚ*/
+            border-left: 2px solid #549688;
+        }
+        table tr th:last-child,table tr td:last-child {/*…Ë÷√table”“±ﬂ±ﬂøÚ*/
+            border-right: 2px solid #549688;
+        }
+        table tr td:first-child,
+        table tr td:nth-child(2),
+        table tr td:nth-child(3),
+        table tr td:last-child{/*…Ë÷√table±Ì∏Ò√ø¡–µ◊≤ø±ﬂøÚ*/
+            border-bottom: 2px solid #549688;
+        }
+        
+        table tr th {
+            background: #549688;
+        }
+        table tr:first-child th:first-child {
+            border-top-left-radius: 12px;
+        }
+
+        table tr:first-child th:last-child {
+            border-top-right-radius: 12px;
+        }
+        table tr:last-child td:first-child {
+            border-bottom-left-radius: 12px;
+        }
+
+        table tr:last-child td:last-child {
+            border-bottom-right-radius: 12px;
+        }
+#adduser
+{
+	text-align: center;
+}
+.mycenter {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 600px;
+	width: 700px;
+	padding: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.mycenter mysign {
+	width: 440px;
+}
+
+.mycenter input,checkbox,button {
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.mycheckbox {
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	height: 10px;
+}
